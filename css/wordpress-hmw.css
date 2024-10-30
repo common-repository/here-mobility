@@ -1,0 +1,29 @@
+/*
+* Reset wordpress them start
+*/
+input[type="text"], .wordpress-hmw input[type="tel"] {
+    border: inherit;
+    border-bottom: inherit;
+}
+
+.wordpress-hmw input[type="text"],  .wordpress-hmw input[type="tel"]{
+    background: inherit;
+}
+
+.wordpress-hmw input[type="text"] {
+    border-radius: 0;
+    font-family: inherit;
+    background: inherit;
+}
+
+.wordpress-hmw button:hover, .wordpress-hmw button:visited, .wordpress-hmw button:focus {
+    background: 0;
+}
+
+.wordpress-hmw label {
+    color : inherit;
+    font-weight : normal;
+}
+/*
+* Reset wordpress them end
+*/

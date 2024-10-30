@@ -1,0 +1,122 @@
+i.mce-i-here_panel:before {
+    font-family: "dashicons";
+    content: url(../img/addWidget.svg);
+}
+
+i.mce-i-here_button:before {
+    font-family: "dashicons";
+    content: url(../img/button.svg);
+}
+
+i.mce-i-here_link:before {
+    font-family: "dashicons";
+    content: url(../img/link.svg);
+}
+
+.mce-here-popup .mce-abs-layout {
+    height: 240px;
+    width: 500px;
+}
+
+div.dialog-warnings {
+    position: relative;
+    margin: 10px 15px 0;
+    color: #721c24;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.wp-here_panel {
+    max-width: 500px;
+}
+
+
+.btn-round {
+    width: 85px;
+    height: 85px;
+    box-shadow: 0 15px 20px 0 rgba(38, 136, 100, 0.29);
+    background-color: #00afaa;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn-round:before {
+    background-color: #00afaa;
+    content: url(../img/car.svg);
+}
+
+.btn-round:hover:before {
+    background-color: #00908a;
+}
+
+.btn-round:hover {
+    box-shadow: 0 15px 20px 0 rgba(38, 136, 100, 0.29);
+    background-color: #00908a;
+}
+
+.btn-rectangle, .btn-text {
+    width: auto;
+    height: 35px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-rectangle {
+    background-color: #00afaa;
+}
+
+.btn-rectangle:hover {
+    background-color: #00908a;
+}
+
+.btn-rectangle div {
+    color: #ffffff;
+}
+
+.btn-rectangle div:before {
+    content: url(../img/car2.svg);
+}
+
+.btn-text:hover div {
+    color: #00908a;
+}
+
+.btn-rectangle div, .btn-text div {
+    display: inline-block;
+    font-family: SourceSansPro;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 35px;
+    letter-spacing: normal;
+    padding: 0 15px;
+}
+
+.btn-text div {
+    color: #00afaa;
+}
+
+.btn-text div:before {
+    content: url(../img/car-green.svg);
+}
+
+.clear-both {
+    clear: both;
+}
+
+.btn-center {
+    display: block;
+    margin: auto;
+}
+
+.btn-left {
+    float: left;
+}
+
+.btn-right {
+    float: right;
+}

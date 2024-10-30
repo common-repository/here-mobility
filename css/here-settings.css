@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+.here-settings-wrap .form-table td {
+    padding: 15px 0;
+    vertical-align: middle;
+}
+
+.here-settings-wrap .form-table ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9b9da2;
+}
+.here-settings-wrap .form-table ::-moz-placeholder { /* Firefox 19+ */
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9b9da2;
+}
+.here-settings-wrap .form-table :-ms-input-placeholder { /* IE 10+ */
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9b9da2;
+}
+
+.here-settings-wrap .form-table label {
+    font-family: 'Fira Sans';
+    font-size: 16px;
+    line-height: 30px;
+    color: #9b9da2;
+    vertical-align: top;
+}
+
+.here-settings-wrap .form-table td {
+    padding: 7px 0;
+}
+
+input[type=text].here-row, input[type=password].here-row, select.here-select {
+    background: inherit;
+    background-color: inherit;
+    border: none;
+    border-bottom: 1px solid #cdced0;
+    box-shadow: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    color: #383c45;
+}
+
+
+.label-select {
+    display: inline-block;
+}
+
+input[type=text].here-row, input[type=password].here-row {
+    width: 650px;
+    line-height: 30px;
+}
+
+.here-settings-wrap input[type=password] {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+select.here-select {
+    color: #383c45;
+    width: 180px;
+    text-align-last: left;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding: 0 10px;
+    border-bottom: solid 1px #cdced0;
+    display: inline-block;
+}
+
+select.here-select::-ms-expand {
+    display: none;
+}
+
+.select-dropdown {
+    display: inline-block;
+    position: relative;
+    width: 180px;
+}
+
+.select-dropdown i {
+    position: absolute;
+    border: solid #9b9da2;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    right: 5px;
+    top: 5px;
+}
+
+.here-settings-wrap .form-table tr th {
+    width: 0;
+    padding: 0;
+}
+
+.here-settings-wrap h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #23282d;
+}
+
+.here-settings-wrap h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #23282d;
+}
+
+#setting-error-here_message {
+    margin: 5px 0 2px;
+}
+
+.here-settings-wrap label:before {
+    margin-right: 15px;
+}
+
+.here-settings-wrap label.app_key:before {
+    content: url(../img/appKey.svg);
+}
+
+.here-settings-wrap label.app_secret:before {
+    content: url(../img/appSecret.svg);
+}
+
+.here-settings-wrap label.user:before {
+    content: url(../img/user.svg);
+}
+
+.here-settings-wrap label.default_pickup:before {
+    content: url(../img/pickup.svg);
+}
+
+.here-settings-wrap label.default_destination:before {
+    content: url(../img/destination.svg);
+}
+
+.here-settings-wrap label.passengers_number:before {
+    content: url(../img/passengers.svg);
+}
+
+.here-settings-wrap label.suitcases_number:before {
+    content: url(../img/suitcases.svg);
+}
+
+.here-settings-wrap label.localization:before {
+    content: url(../img/globe.svg);
+}
+
+.here-settings-wrap #here-settings-logo {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    content: url(../img/hereLogo.svg);
+}
+
+.user-opacity {
+    opacity: 0.3;
+}
+
+.radio-container {
+    position: relative;
+    padding: 0 6px;
+    margin: 10px 0 0;
+}
+
+.radio-container input[type='radio'] {
+    display: none !important;
+}
+
+.radio-container label {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.here-settings-wrap .radio-container-active label {
+    color: #393c46;
+}
+
+.here-settings-wrap .radio-container-disabled label {
+    color: #9b9da2;
+}
+
+.radio-container label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    background-color: transparent;
+}
+
+.radio-container input[type=radio]:checked + label:after {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    content: " ";
+    display: block;
+}
+
+.radio-container-active label:before {
+    border: 1px solid #00afaa;
+}
+
+.radio-container-active input[type=radio]:checked + label:after {
+    background: #00afaa;
+}
+
+.radio-container-disabled label:before {
+    border: 1px solid #cdced0;
+}
+
+.radio-container-disabled input[type=radio]:checked + label:after {
+}
+
+.radio-container label i.here-settings-tooltip {
+    border-bottom: 0 !important;
+    margin-left: 5px;
+}
+
+.radio-container label i.here-settings-tooltip:before {
+    content: url('data:image/svg+xml; utf8, <svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <title>718540E5-3286-4523-B5D6-F2F337E263FE</title> <desc>Created with sketchtool.</desc> <defs></defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Wordpress-settings--tooltip-1" transform="translate(-381.000000, -244.000000)" fill="#9B9DA2" fill-rule="nonzero"> <g id="Group-26-Copy" transform="translate(381.000000, 244.000000)"> ]                    <path d="M12.8,2.19352941 C11.3855882,0.778823529 9.50205882,0 7.49676471,0 C5.49117647,0 3.60764706,0.778823529 2.19352941,2.19352941 C-0.730882353,5.11735294 -0.730882353,9.87558824 2.19352941,12.8 C3.60794118,14.2144118 5.49117647,14.9929412 7.49676471,14.9935294 C7.49676471,14.9935294 7.49705882,14.9935294 7.49735294,14.9935294 C9.50205882,14.9935294 11.3858824,14.2147059 12.8,12.8 C14.2144118,11.3855882 14.9932353,9.50235294 14.9932353,7.49705882 C14.9932353,5.49117647 14.2141176,3.60764706 12.8,2.19352941 Z M12.3841176,12.3838235 C11.0805882,13.6870588 9.34529412,14.405 7.49735294,14.405 L7.49676471,14.405 C5.64823529,14.4047059 3.91235294,13.6870588 2.60941176,12.3838235 C-0.0852941176,9.68882353 -0.0852941176,5.30411765 2.60941176,2.60941176 C3.91264706,1.30588235 5.64823529,0.588235294 7.49676471,0.588235294 C9.345,0.588235294 11.0808824,1.30588235 12.3841176,2.60941176 C13.6873529,3.91264706 14.405,5.64823529 14.405,7.49676471 C14.405,9.34470588 13.6870588,11.0808824 12.3841176,12.3838235 Z" id="Shape"></path> <path d="M6.93470588,9.47588235 C6.92794118,8.96588235 6.97676471,8.57617647 7.08058824,8.30764706 C7.18441176,8.03911765 7.40705882,7.72029412 7.74882353,7.35088235 C7.88647059,7.19323529 8.02029412,7.03852941 8.15088235,6.88764706 C8.335,6.66617647 8.47558824,6.45294118 8.57323529,6.24794118 C8.67058824,6.04 8.71882353,5.79470588 8.71882353,5.51264706 C8.71882353,5.19029412 8.64235294,4.89852941 8.48970588,4.63647059 C8.32352941,4.37794118 8.04823529,4.24352941 7.66441176,4.23382353 C7.13441176,4.25058824 6.78647059,4.43 6.62029412,4.77264706 C6.53176471,4.93 6.47235294,5.10823529 6.44176471,5.30617647 C6.40088235,5.51411765 6.38088235,5.72735294 6.38088235,5.94558824 L5.51705882,5.94558824 C5.49029412,5.29617647 5.63676471,4.73558824 5.95617647,4.26352941 C6.26852941,3.78117647 6.79588235,3.53382353 7.53794118,3.52029412 C8.17323529,3.52705882 8.67735294,3.69911765 9.05,4.03735294 C9.42588235,4.37852941 9.61735294,4.85029412 9.62352941,5.45235294 C9.62352941,5.78823529 9.58323529,6.07323529 9.50294118,6.30852941 C9.41205882,6.55705882 9.28794118,6.77705882 9.13,6.96823529 C8.98529412,7.15941176 8.81588235,7.35588235 8.62117647,7.55705882 C8.43,7.76205882 8.235,7.99205882 8.03676471,8.24705882 C7.96647059,8.35794118 7.91058824,8.47558824 7.87058824,8.59970588 C7.82352941,8.88176471 7.80676471,9.17352941 7.82029412,9.47588235 C7.82029412,9.47588235 6.93470588,9.47588235 6.93470588,9.47588235 Z M6.93470588,11.2411765 L6.93470588,10.2164706 L7.83941176,10.2164706 L7.83941176,11.2411765 L6.93470588,11.2411765 Z" id="Shape"></path> </g> </g> </g> </svg>');
+}
+
+.here-settings-tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.here-settings-tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background: #fff;
+    color: #393c46;
+    border-radius: 6px;
+    padding: 5px 15px;
+    position: absolute;
+    line-height: 1.57;
+    font-size: 14px;
+    z-index: 1;
+    bottom: 160%;
+    left: 90%;
+    margin-left: -40px;
+    font-size: 14px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.here-settings-tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #fff #fff;
+    transform-origin: 0 0;
+    transform: rotate(-45deg);
+    box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.here-settings-tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.here-settings-show, .here-settings-hide{
+    width: 33px;
+    height: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #00908a;
+    cursor: pointer;
+}
+
+.here-settings-show:before {
+    content: url(../img/show.svg);
+}
+
+
+
+
+
+
+
+

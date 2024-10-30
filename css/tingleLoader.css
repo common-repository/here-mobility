@@ -1,0 +1,156 @@
+.tingle-modal-box {
+  width: auto;
+  border-radius: 15px;
+  position: relative;
+}
+
+.tingle-modal-float {
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+}
+
+.tingle-modal .tingle-modal-float .tingle-modal-box__content {
+  position: relative;
+  padding-left: 15px;
+  padding-top: 13px;
+  padding-right: 9px;
+  padding-bottom: 39px;
+  width: 363px;
+  height: 600px;
+}
+
+.tingle-modal .tingle-modal-float .tingle-modal__close {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #00afaa;
+  margin: 0;
+  top: 565px;
+  right: 0px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  box-sizing: border-box;
+}
+
+.tingle-modal .tingle-modal-float .tingle-modal__close span {
+  display: none;
+}
+
+.tingle-modal .tingle-modal-float .tingle-modal__close:before {
+  font-size: 30px;
+  font-weight: 100;
+  content: "\2715";
+  position: absolute;
+  top: 10px;
+  left: 12px;
+}
+
+.tingle-modal .tingle-modal-float .tingle-modal__close:hover {
+  background-color: #00afaa;
+}
+
+
+.tingle-modal-modal .tingle-modal-box__content {
+  position: relative;
+  padding: 0;
+  width: 748px;
+  height: 550px;
+}
+
+.tingle-modal-modal .tingle-modal__close {
+  font-size: 32px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  top: -10px;
+  right: -10px;
+  background-color: #6a6d74;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.tingle-modal-modal .tingle-modal__close span {
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.tingle-modal-modal .tingle-modal__close:hover {
+  background-color: #6a6d74;
+}
+
+.btn-round {
+  width: 85px;
+  height: 85px;
+  box-shadow: 0 15px 20px 0 rgba(38, 136, 100, 0.29);
+  background-color: #00afaa;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.btn-round:before {
+  background-color: #00afaa;
+  content: url(../img/car.svg);
+}
+
+.btn-round:hover:before {
+  background-color: #00908a;
+}
+
+.btn-round:hover {
+  box-shadow: 0 15px 20px 0 rgba(38, 136, 100, 0.29);
+  background-color: #00908a;
+}
+
+.btn-rectangle, .btn-text {
+  width: auto;
+  height: 35px;
+  border-radius: 3px;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn-rectangle {
+  background-color: #00afaa;
+}
+
+.btn-rectangle:hover {
+  background-color: #00908a;
+}
+
+.btn-rectangle div {
+  color: #ffffff;
+}
+
+.btn-rectangle div:before {
+  content: url(../img/car2.svg);
+}
+
+.btn-text:hover div {
+  color: #00908a;
+}
+
+.btn-rectangle div, .btn-text div {
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 35px;
+  letter-spacing: normal;
+  padding: 0 15px;
+}
+
+.btn-text div {
+  color: #00afaa;
+}
+
+.btn-text div:before {
+  content: url(../img/car-green.svg);
+}
+
+.clear-both {
+  clear: both;
+}
